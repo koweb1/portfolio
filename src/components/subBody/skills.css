@@ -1,0 +1,42 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  place-items: center;
+  margin-top: 2.5rem;
+  margin-bottom: 3.125rem;
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1rem;
+}
+.main{
+    margin-bottom: 10px;
+}
+@media (max-width: 420px) {
+    #Skills{
+    padding: 30px 20px !important; 
+    }
+    .skills {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    place-items: center; 
+  }
+   .main{
+    margin-bottom: 70px;
+}
+   .para{
+    font-size: 14px;
+    margin-top: -8px;
+    color: #C7D6DF;
+   }
+   .main1{
+    font-size: 12px;
+    font-weight: 400;
+   }
+}
+
+@media (max-width: 380px){
+    #Skills{
+        padding: 30px 15px !important;
+    }
+    
+} 
